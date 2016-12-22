@@ -1,0 +1,41 @@
+{
+  "name": "gulp-powerbi-package-validator",
+  "version": "1.0.0",
+  "description": "This module validates the Power Bi visual package.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies": {
+    "del": "^2.2.0",
+    "email-existence": "^0.1.5",
+    "eslint": ">=1.1.0",
+    "eslint-plugin-no-unsafe-innerhtml": ">=0.1.9",
+    "eslint-plugin-scanjs-rules": ">=0.1.3",
+    "gulp": "^3.9.0",
+    "gulp-debug": "*",
+    "gulp-eslint": "^1.1.1",
+    "gulp-help": "^1.6.1",
+    "gulp-stylelint": "^0.2.0",
+    "gulp-stylelint-console-reporter": "^0.1.0",
+    "gulp-tslint": "4.3.1",
+    "gulp-unzip": "^0.1.3",
+    "gulp-using": "^0.1.0",
+    "gulp-util": "^3.0.7",
+    "image-size": "0.3.5",
+    "jsonschema": "^1.0.1",
+    "request": "^2.69.0",
+    "run-sequence": "^1.1.2",
+    "tslint": "3.3.0",
+    "typescript": "^1.7.5",
+    "yargs": "^3.32.0",
+    "glob": "^7.0.3",
+    "gulp-cli": "^1.2.2"
+  },
+  "keywords": ["powerbi","visuals","package","validator"],
+  "author": "Gleb Polushkin, Artem Tkachenko",
+  "license": "ISC"
+}
